@@ -1,0 +1,42 @@
+[1/30/2021, 11:37:13 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:37:14 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:37:20 PM] error: Error: Hello World
+[1/30/2021, 11:38:09 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:40:32 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:40:38 PM] error: Error: Hello World
+[1/30/2021, 11:40:38 PM] info: ::ffff:127.0.0.1 - - [30/Jan/2021:18:10:38 +0000] "GET / HTTP/1.1" 500 20
+
+[1/30/2021, 11:40:38 PM] info: ::ffff:127.0.0.1 - - [30/Jan/2021:18:10:38 +0000] "GET /favicon.ico HTTP/1.1" 404 150
+
+[1/30/2021, 11:41:14 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:42:10 PM] error: uncaughtException: Identifier 'logger' has already been declared
+/home/akshay/Desktop/Node/frute-api/controller/index.js:3
+const logger = require('../config/winston');
+      ^
+
+SyntaxError: Identifier 'logger' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1024:16)
+    at Module._compile (node:internal/modules/cjs/loader:1072:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+    at Module.load (node:internal/modules/cjs/loader:973:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:997:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (/home/akshay/Desktop/Node/frute-api/routes/index.js:2:23)
+    at Module._compile (node:internal/modules/cjs/loader:1108:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1137:10)
+[1/30/2021, 11:42:45 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:43:22 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:43:31 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:43:34 PM] info: Response [object Object]
+[1/30/2021, 11:43:34 PM] info: ::ffff:127.0.0.1 - - [30/Jan/2021:18:13:34 +0000] "GET / HTTP/1.1" 200 21
+
+[1/30/2021, 11:44:08 PM] info: Server running on http://localhost:3001
+[1/30/2021, 11:44:10 PM] info: Response uptime : 00:00:02
+[1/30/2021, 11:44:10 PM] info: ::ffff:127.0.0.1 - - [30/Jan/2021:18:14:10 +0000] "GET / HTTP/1.1" 200 21
+
+[1/31/2021, 9:35:13 AM] info: Server running on http://localhost:3001
+[1/31/2021, 11:52:31 AM] info: Server running on http://localhost:3001
+[1/31/2021, 11:52:36 AM] info: Server running on http://localhost:3001
+[1/31/2021, 11:53:02 AM] info: Server running on http://localhost:3001
+[1/31/2021, 11:53:20 AM] info: Server running on http://localhost:3001
